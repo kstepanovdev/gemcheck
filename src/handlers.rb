@@ -64,11 +64,11 @@ end
 class ErrorHandler < BaseHandler
   private
 
-  def handle(bot_request)
+  def handle
     'Error'
   end
 
-  def can_handle?(bot_request)
+  def can_handle?
     true
   end
 end
